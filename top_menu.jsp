@@ -6,6 +6,13 @@
   		</button>
     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
         <a class="dropdown-item" href="#">CPU</a>
+        <a class="dropdown-item" href="#">MAINBOARD</a>
+        <a class="dropdown-item" href="#">MEMORY</a>
+        <a class="dropdown-item" href="#">HDD/SDD</a>
+        <a class="dropdown-item" href="#">CASE/POWER/COOLER</a>
+        <a class="dropdown-item" href="#">MOUSE/KEYBOARD</a>
+        <a class="dropdown-item" href="#">ETC</a>
+        
      </div>
 	</div>
     
