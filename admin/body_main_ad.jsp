@@ -2,8 +2,6 @@
 <%@ page import="java.util.ArrayList"%>
 <%@ page import="dto.Product"%>
 <%@ page import="dao.ProductRepository"%>
-<jsp:useBean id="productDAO" class="dao.ProductRepository" scope="session" />
-
 
 <%! String greeting = "현재 페이지는 VGA 그래픽 카드 상품 목록입니다..";
 	String tagline = "하단 페이지 : 확인";%>
@@ -14,7 +12,7 @@
             </h3>
 		</div>
 	</div>
-<%
+	<%
 		ProductRepository dao = ProductRepository.getInstance();
 		ArrayList<Product> listOfProducts = dao.getAllProducts();
 	%>

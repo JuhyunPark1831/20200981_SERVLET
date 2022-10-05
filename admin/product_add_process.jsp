@@ -1,6 +1,7 @@
 <%@ page contentType="text/html; charset=utf-8"%>
 <%@ page import="dto.Product"%>
 <%@ page import="dao.ProductRepository"%>
+<%@ page errorPage = "../exception/product_not_add.jsp" %>
 
 <%
 	request.setCharacterEncoding("UTF-8");
