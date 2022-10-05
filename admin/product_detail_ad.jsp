@@ -13,7 +13,7 @@
 <title>상품 상세 정보</title>
 </head>
 <body>
-	<%@ include file="top_menu.jsp" %>
+	<%@ include file="top_menu_ad.jsp" %>
 	<div class="jumbotron">
 		<div class="container">
 			<h1 class="display-3">상품 상세 정보</h1>
@@ -46,6 +46,6 @@
 		</div>
 		<hr>
 	</div>
-    <%@ include file="footer.jsp" %>
+    <%@ include file="footer_ad.jsp" %>
 </body>
 </html>
